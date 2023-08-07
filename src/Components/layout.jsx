@@ -4,6 +4,7 @@ import {BrowserRouter  as Router, Route, Routes} from "react-router-dom"
 import Header from './header/Header'
 import Main from './Main/Main'
 import Recipe from './Main/Recipe'
+import RecipeGallery from "./Main/RecipeGallery";
 import Blog from './Main/Blog'
 import Footer from './footer/Footer.jsx'
 import CookiePrivacyPolicy from "./footer/CookiePrivacyPolicy";
@@ -20,6 +21,7 @@ const Layout = () => {
                 <Routes>
                     <Route path="/" exact Component={Main}/>
                     <Route path="/przepisy" Component={Recipe}/>
+                    <Route path="/przepisy/:name" Component={RecipeGallery}/>
                     <Route path="/blog"  Component={Blog}/>
                     <Route path="/kontakt" Component={Contact}/>
                     <Route path="/regulamin" Component={Statute}/>

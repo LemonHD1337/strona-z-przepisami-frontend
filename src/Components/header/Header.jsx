@@ -2,7 +2,7 @@ import React, {useRef} from "react";
 import {FaTimes, FaBars} from "react-icons/fa";
 import {Link} from 'react-router-dom'
 
-import '../Styles/header.css'
+import '../../Styles/header.css'
 
 const Header = () =>{
     const navRef = useRef()

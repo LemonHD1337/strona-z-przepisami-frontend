@@ -1,9 +1,9 @@
 import React from "react";
 
-const Receipt = () =>{
+const Recipe = () =>{
     return(
         <p>przepisy</p>
     )
 }
 
-export default Receipt
+export default Recipe

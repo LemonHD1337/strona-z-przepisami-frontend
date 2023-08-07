@@ -3,7 +3,7 @@ import React from "react";
 import DishOfTheDay from "./DishOfTheDay";
 import TheBestReceipts from "./TheBestReceipt";
 
-import '../Styles/main.css'
+import '../../Styles/main.css'
 
 const Main = () =>{
     return(

@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom'
 import {FaFacebookSquare, FaInstagram, FaYoutube} from 'react-icons/fa'
 
-import '../Styles/footer.css'
+import '../../Styles/footer.css'
 const Footer = () =>{
     return(
         <footer>

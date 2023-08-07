@@ -1,15 +1,15 @@
 import React from "react";
 import {BrowserRouter  as Router, Route, Routes} from "react-router-dom"
 
-import Header from './Header'
-import Main from './Main'
-import Receipt from './Receipt'
-import Blog from './Blog'
-import Footer from './Footer.jsx'
-import CookiePrivacyPolicy from "./CookiePrivacyPolicy";
-import PrivacyPolicy from "./PrivacyPolicy";
-import Statute from "./Statute";
-import Contact from "./Contact";
+import Header from './header/Header'
+import Main from './Main/Main'
+import Recipe from './Main/Recipe'
+import Blog from './Main/Blog'
+import Footer from './footer/Footer.jsx'
+import CookiePrivacyPolicy from "./footer/CookiePrivacyPolicy";
+import PrivacyPolicy from "./footer/PrivacyPolicy";
+import Statute from "./footer/Statute";
+import Contact from "./footer/Contact";
 
 const Layout = () => {
 
@@ -19,7 +19,7 @@ const Layout = () => {
                 <Header/>
                 <Routes>
                     <Route path="/" exact Component={Main}/>
-                    <Route path="/przepisy" Component={Receipt}/>
+                    <Route path="/przepisy" Component={Recipe}/>
                     <Route path="/blog"  Component={Blog}/>
                     <Route path="/kontakt" Component={Contact}/>
                     <Route path="/regulamin" Component={Statute}/>

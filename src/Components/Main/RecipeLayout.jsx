@@ -1,9 +1,9 @@
 import React from "react";
 
-import "../Styles/receiptLayout.css"
+import "../../Styles/receiptLayout.css"
 import {FaRegBookmark, FaRegClock, FaRegFlag} from "react-icons/fa";
 
-const ReceiptLayout = () =>{
+const RecipeLayout = () =>{
     return(
         <div className="receipt-layout-container">
             <img src="/schab-z-pieczarkami-pod-pierzynka-z-majonezu-i-zoltego-sera-3.webp" alt="obrazek dania"/>
@@ -21,4 +21,4 @@ const ReceiptLayout = () =>{
     )
 }
 
-export default ReceiptLayout
+export default RecipeLayout

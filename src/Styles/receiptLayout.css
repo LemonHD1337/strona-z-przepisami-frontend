@@ -1,0 +1,88 @@
+div.receipt-layout-container{
+    background-color: var(--second-color);
+    filter: var(--main-filter);
+    border-radius: 30px;
+    width: 100%;
+    min-height: 454px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+div.receipt-layout-container img{
+    border-radius: 20px;
+    max-width: 302px;
+    max-height: 290px;
+    padding: 5px;
+    margin: 15px 5px;
+}
+
+div.receipt-layout-container h1{
+    width: 85%;
+    color: #263238;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+div.receipt-layout-container div.icons-receipt-layout{
+    display: flex;
+    width: 90%;
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+
+div.receipt-layout-container div.icons-receipt-layout span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+div.receipt-layout-container div.icons-receipt-layout span p{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+div.receipt-layout-container div.icons-receipt-layout span svg{
+    font-size: 2rem;
+}
+
+div.receipt-layout-container span.bookmark{
+    border-radius: 50%;
+    background-color: #FF9800;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+}
+
+div.receipt-layout-container span.bookmark svg{
+    fill: white;
+}
+
+@media (max-width: 1440px){
+    div.receipt-layout-container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1336px ){
+    div.receipt-layout-container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,171 @@
+article div.dish-of-the-day-container{
+    width: 75%;
+    border-radius: 30px;
+    filter: var(--main-filter);
+    background-color: #fefafa;
+}
+
+article div.dish-of-the-day-container img{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+    float: left;
+}
+
+article div.dish-of-the-day-container div.save-share-icons{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    padding: 10px;
+}
+
+article div.dish-of-the-day-container div.save-share-icons span.share ,
+article div.dish-of-the-day-container div.save-share-icons span.bookmark{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+article div.dish-of-the-day-container div.save-share-icons span.share{
+    background-color: #263238;
+}
+
+article div.dish-of-the-day-container div.save-share-icons span.share svg{
+    fill: white;
+}
+
+article div.dish-of-the-day-container div.save-share-icons span.bookmark{
+    background-color: #FF9800;
+}
+article div.dish-of-the-day-container div.save-share-icons span.bookmark svg{
+    fill: white;
+}
+
+article div.dish-of-the-day-container div.description{
+    width: 45%;
+    position: absolute;
+    left: 52%;
+    top: 20%;
+}
+
+article div.dish-of-the-day-container div.description h1{
+    width: 100%;
+    color: #263238;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+}
+
+article div.dish-of-the-day-container div.description p{
+    word-break: break-all;
+    width: 100%;
+    height: 30%;
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+    padding: 5px;
+}
+
+article div.dish-of-the-day-container div.icons{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    width: 40%;
+    padding: 5px;
+}
+
+article div.dish-of-the-day-container div.icons span{
+    width: 33.3%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+article div.dish-of-the-day-container div.icons span p{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media (max-width: 1015px){
+    article div.dish-of-the-day-container div.description h1{
+        font-size: 20px;
+    }
+
+    article div.dish-of-the-day-container div.save-share-icons{
+        height: 50px;
+    }
+
+    article div.dish-of-the-day-container div.save-share-icons span.share ,
+    article div.dish-of-the-day-container div.save-share-icons span.bookmark{
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 916px){
+    article div.dish-of-the-day-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article div.dish-of-the-day-container img{
+        width: 100%;
+    }
+
+    article div.dish-of-the-day-container div.description{
+        position: static;
+    }
+
+    article div.dish-of-the-day-container div.icons{
+        position: static;
+    }
+
+    article div.dish-of-the-day-container div.save-share-icons{
+        position: static;
+    }
+}
+
+@media (max-width: 858px){
+    article div.dish-of-the-day-container div.description{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    article div.dish-of-the-day-container div.icons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article div.dish-of-the-day-container div.icons span{
+        width: 100%;
+    }
+}
+
+@media (max-width: 432px){
+    article div.dish-of-the-day-container div.icons{
+        flex-direction: column;
+    }
+}
+

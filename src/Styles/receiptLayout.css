@@ -1,8 +1,7 @@
 div.receipt-layout-container{
     background-color: var(--second-color);
-    filter: var(--main-filter);
+    filter: drop-shadow(0px 73px 93px rgba(0,0,0,0.09));
     border-radius: 30px;
-    width: 100%;
     min-height: 454px;
     display: flex;
     flex-direction: column;
@@ -73,16 +72,4 @@ div.receipt-layout-container span.bookmark{
 
 div.receipt-layout-container span.bookmark svg{
     fill: white;
-}
-
-@media (max-width: 1440px){
-    div.receipt-layout-container{
-        width: 90%;
-    }
-}
-
-@media (max-width: 1336px ){
-    div.receipt-layout-container{
-        width: 100%;
-    }
 }

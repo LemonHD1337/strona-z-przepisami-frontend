@@ -10,7 +10,7 @@ const TheBestReceipts = () =>{
 
     return(
         <div className="grid-best-receipt">
-            {receipts}
+
         </div>
     )
 }

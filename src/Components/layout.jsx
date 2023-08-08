@@ -11,6 +11,8 @@ import CookiePrivacyPolicy from "./footer/CookiePrivacyPolicy";
 import PrivacyPolicy from "./footer/PrivacyPolicy";
 import Statute from "./footer/Statute";
 import Contact from "./footer/Contact";
+import RecipeDescription from "./Main/RecipeDescription";
+
 
 const Layout = () => {
 
@@ -22,6 +24,7 @@ const Layout = () => {
                     <Route path="/" exact Component={Main}/>
                     <Route path="/przepisy" Component={Recipe}/>
                     <Route path="/przepisy/:name" Component={RecipeGallery}/>
+                    <Route path="/przepisy/:name/:id" Component={RecipeDescription}/>
                     <Route path="/blog"  Component={Blog}/>
                     <Route path="/kontakt" Component={Contact}/>
                     <Route path="/regulamin" Component={Statute}/>

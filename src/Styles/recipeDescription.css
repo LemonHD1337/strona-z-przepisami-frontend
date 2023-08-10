@@ -1,4 +1,14 @@
 div.containerRecipeDescription{
     width: 90%;
     background-color: var(--second-color);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+div.preparationDesContainer {
+    width: 450px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 73px 99px rgba(0,0,0, 0.09));
+    background-color: #f0e9e9;
 }

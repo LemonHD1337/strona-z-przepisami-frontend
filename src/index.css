@@ -4,11 +4,17 @@
   margin: 0; padding: 0;
   box-sizing: border-box;
   font-family: 'Source Sans 3', sans-serif;
-  --second-color: #fefafa;
+  --main-color: #d2bd69;
+  --second-color: #eee;
 }
 
 body{
   overflow-x: hidden;
+  background-color: #ddd;
+}
+
+main{
+  width: 100%;
 }
 
 #root{

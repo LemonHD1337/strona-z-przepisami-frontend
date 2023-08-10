@@ -2,7 +2,7 @@ import React from "react";
 
 import ReceiptLayout from "./RecipeLayout";
 
-import '../../Styles/theBestReceipts.css'
+import '../Styles/theBestReceipts.css'
 
 const TheBestReceipts = () =>{
 

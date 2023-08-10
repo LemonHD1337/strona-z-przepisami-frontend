@@ -1,7 +1,7 @@
 import React from "react";
 import {FaRegClock, FaRegFlag, FaUtensils, FaShareAlt, FaRegBookmark} from 'react-icons/fa'
 
-import "../../Styles/dishOfTheDay.css"
+import "../Styles/dishOfTheDay.css"
 const DishOfTheDay = () => {
     return(
         <>
